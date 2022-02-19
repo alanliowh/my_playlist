@@ -7,7 +7,7 @@ https://pullhls3948069e.live.126.net/live/240c9354c8f4a6a5523087f5f16ccc05/playl
 https://pullhls3948069e.live.126.net/live/38cd8d6da65b87cd03ffe32bff61d053/playlist.m3u8
 #EXTINF:-1, TVB J2台
 https://pullhls3948069e.live.126.net/live/7893d154c770bc31f5b5a893b15b53f8/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/1/16/Phoenix_InfoNews.svg/1200px-Phoenix_InfoNews.svg.png", 凤凰卫视资讯台
+#EXTINF:1 tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/1/16/Phoenix_InfoNews.svg/1200px-Phoenix_InfoNews.svg.png", 凤凰卫视资讯台
 http://playtv-live.ifeng.com/live/06OLEEWQKN4.m3u8
 #EXTINF:-1, 凤凰卫视中文
 https://playtv-live.ifeng.com/live/06OLEGEGM4G.m3u8

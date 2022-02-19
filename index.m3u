@@ -1,0 +1,35 @@
+#EXTM3U
+#EXTINF:-1,TVB翡翠台
+https://pullhls3948069e.live.126.net/live/48c6d4e509360fbab53ebb78520651c5/playlist.m3u8
+#EXTINF:-1,TVB新聞台
+https://pullhls3948069e.live.126.net/live/240c9354c8f4a6a5523087f5f16ccc05/playlist.m3u8
+#EXTINF:-1,TVB无线财经资讯台
+https://pullhls3948069e.live.126.net/live/38cd8d6da65b87cd03ffe32bff61d053/playlist.m3u8
+#EXTINF:-1, TVB J2台
+https://pullhls3948069e.live.126.net/live/7893d154c770bc31f5b5a893b15b53f8/playlist.m3u8
+#EXTINF:-1,凤凰卫视资讯台
+http://playtv-live.ifeng.com/live/06OLEEWQKN4.m3u8
+#EXTINF:-1, 凤凰卫视中文
+https://playtv-live.ifeng.com/live/06OLEGEGM4G.m3u8
+#EXTINF:-1, NOW新闻台
+https://pullhls3948069e.live.126.net/live/fc6cb52f04e00aa97709f400202d6a2a/playlist.m3u8
+#EXTINF:-1, 澳視澳門
+https://live4.tdm.com.mo/ch1/ch1.live/playlist.m3u8
+#EXTINF:-1, 澳视资讯
+https://live4.tdm.com.mo/ch5/info_ch5.live/playlist.m3u8
+#EXTINF:-1, CCTV1综合高清
+https://pullhls3948069e.live.126.net/live/21f59239d0aaa57ecb2d81c76b3ecde3/playlist.m3u8
+#EXTINF:-1, CCTV5体育高清
+https://pullhls3948069e.live.126.net/live/2f28dbd9a4748b0facdbb12fc203d668/playlist.m3u8
+#EXTINF:-1,CCTV5+体育赛事高清
+https://pullhls3948069e.live.126.net/live/83ca93c8318f102793f638245f9853d0/playlist.m3u8
+#EXTINF:-1,CCTV6电影高清
+http://219.151.31.37/liveplay-kk.rtxapp.com/live/program/live/cctv6hd/2300000/mnf.m3u8
+#EXTINF:-1,CCTV8电视剧高清
+http://219.151.31.37/liveplay-kk.rtxapp.com/live/program/live/cctv8hd/2300000/mnf.m3u8
+#EXTINF:-1,CCTV9纪录高清
+http://117.148.179.162/PLTV/88888888/224/3221231697/index.m3u8
+#EXTINF:-1,CCTV13新闻高清
+https://pullhls3948069e.live.126.net/live/26762f81a9652a8b4d766e58c54a5078/playlist.m3u8
+#EXTINF:-1,CCTV14少儿高清
+http://219.151.31.37/liveplay-kk.rtxapp.com/live/program/live/cctvsehd/2300000/mnf.m3u8

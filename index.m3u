@@ -13,6 +13,8 @@ http://playtv-live.ifeng.com/live/06OLEEWQKN4.m3u8
 https://playtv-live.ifeng.com/live/06OLEGEGM4G.m3u8
 #EXTINF:1 tvg-logo="http://news.now.com/revamp2014/images/news_logo_400.png", NOW新闻台
 https://pullhls3948069e.live.126.net/live/7fabf1e408dd654cc1343fe75650be1e/playlist.m3u8
+#EXTINF:1, 香港有线新闻台
+https://pullhls3948069e.live.126.net/live/7fad2f25a3389535ff185e7efa46ca53/playlist.m3u8
 #EXTINF:1 tvg-logo="https://cdn.tdm.com.mo/uploads/attachment/2021-03/a8fbac1841a5372178278304967c69fb.png_w250", 澳視澳門
 https://live4.tdm.com.mo/ch1/ch1.live/playlist.m3u8
 #EXTINF:1 tvg-logo="https://cdn.tdm.com.mo/uploads/attachment/2021-03/5bde9db9db093ab310ceef6976cd0ee2.png_w250", 澳视资讯

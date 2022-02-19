@@ -13,12 +13,12 @@ http://playtv-live.ifeng.com/live/06OLEEWQKN4.m3u8
 https://playtv-live.ifeng.com/live/06OLEGEGM4G.m3u8
 #EXTINF:1 tvg-logo="http://news.now.com/revamp2014/images/news_logo_400.png", NOW新闻台
 https://pullhls3948069e.live.126.net/live/fc6cb52f04e00aa97709f400202d6a2a/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://cdn.tdm.com.mo/uploads/attachment/2021-03/a8fbac1841a5372178278304967c69fb.png_w250", 澳視澳門
+#EXTINF:1 tvg-logo="https://cdn.tdm.com.mo/uploads/attachment/2021-03/a8fbac1841a5372178278304967c69fb.png_w250", 澳視澳門
 https://live4.tdm.com.mo/ch1/ch1.live/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://cdn.tdm.com.mo/uploads/attachment/2021-03/5bde9db9db093ab310ceef6976cd0ee2.png_w250", 澳视资讯
+#EXTINF:1 tvg-logo="https://cdn.tdm.com.mo/uploads/attachment/2021-03/5bde9db9db093ab310ceef6976cd0ee2.png_w250", 澳视资讯
 https://live4.tdm.com.mo/ch5/info_ch5.live/playlist.m3u8
 #EXTINF:1 tvg-logo="https://upload.wikimedia.org/wikipedia/zh/6/65/CCTV-1_Logo.png", CCTV1综合高清
-https://pullhls3948069e.live.126.net/live/21f59239d0aaa57ecb2d81c76b3ecde3/playlist.m3u8
+https://pullhls3948069e.live.126.net/live/18322385d7db59ed6a80faf3ed71df98/playlist.m3u8
 #EXTINF:1 tvg-logo="https://upload.wikimedia.org/wikipedia/zh/3/33/CCTV-5_Logo.png", CCTV5体育高清
 https://pullhls3948069e.live.126.net/live/2f28dbd9a4748b0facdbb12fc203d668/playlist.m3u8
 #EXTINF:-1,CCTV5+体育赛事高清

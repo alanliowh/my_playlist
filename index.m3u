@@ -7,7 +7,7 @@ https://pullhls3948069e.live.126.net/live/240c9354c8f4a6a5523087f5f16ccc05/playl
 https://pullhls3948069e.live.126.net/live/38cd8d6da65b87cd03ffe32bff61d053/playlist.m3u8
 #EXTINF:-1, TVB J2台
 https://pullhls3948069e.live.126.net/live/7893d154c770bc31f5b5a893b15b53f8/playlist.m3u8
-#EXTINF:-1,凤凰卫视资讯台
+#EXTINF:-1, tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/1/16/Phoenix_InfoNews.svg/1200px-Phoenix_InfoNews.svg.png" 凤凰卫视资讯台
 http://playtv-live.ifeng.com/live/06OLEEWQKN4.m3u8
 #EXTINF:-1, 凤凰卫视中文
 https://playtv-live.ifeng.com/live/06OLEGEGM4G.m3u8
@@ -27,13 +27,11 @@ https://pullhls3948069e.live.126.net/live/83ca93c8318f102793f638245f9853d0/playl
 http://219.151.31.37/liveplay-kk.rtxapp.com/live/program/live/cctv6hd/2300000/mnf.m3u8
 #EXTINF:-1,CCTV8电视剧高清
 http://219.151.31.37/liveplay-kk.rtxapp.com/live/program/live/cctv8hd/2300000/mnf.m3u8
-#EXTINF:-1,CCTV9纪录高清
-http://117.148.179.162/PLTV/88888888/224/3221231697/index.m3u8
 #EXTINF:-1,CCTV13新闻高清
 https://pullhls3948069e.live.126.net/live/26762f81a9652a8b4d766e58c54a5078/playlist.m3u8
 #EXTINF:-1,CCTV14少儿高清
 http://219.151.31.37/liveplay-kk.rtxapp.com/live/program/live/cctvsehd/2300000/mnf.m3u8
-#EXTINF:-1,芜湖生活
+#EXTINF:-1,tvg-logo="https://i.imgur.com/QoxH1ph.png" 芜湖生活
 http://live1.wuhubtv.com/channel2/playlist.m3u8
-#EXTINF:-1,芜湖生活 (SD)
-http://live1.wuhubtv.com/channel2/sd/live.m3u8
+#EXTINF:-1,芜湖新聞
+http://live1.wuhubtv.com/channel1/playlist.m3u

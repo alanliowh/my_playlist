@@ -185,7 +185,7 @@ if __name__ == "__main__":
     lines.append(url)
     
     # write m3u8
-    with open('test.m3u8', 'w',encoding="utf-8") as f:
+    with open('auto_list.m3u8', 'w',encoding="utf-8") as f:
         f.write('#EXTM3U')
         f.write('\n')
         for i in range(0,len(lines)):

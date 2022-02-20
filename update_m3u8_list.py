@@ -84,7 +84,7 @@ def get_m3u8(url_link):
 
     # git repo
 PATH_OF_GIT_REPO = r'C:\Users\wali\Downloads\my_playlist'  # make sure .git folder is properly configured
-COMMIT_MESSAGE = 'comment from python script'
+COMMIT_MESSAGE = 'comment from python script_windows'
 
 def git_push():
     try:

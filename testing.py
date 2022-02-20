@@ -6,8 +6,6 @@ import json
 
 from git import Repo
 
-import m3u8
-
 def get_m3u8(url_link):
     # Enable Performance Logging of Chrome.
 	desired_capabilities = DesiredCapabilities.CHROME
@@ -85,13 +83,13 @@ def get_m3u8(url_link):
 	return url_got_it
 
     # git repo
-PATH_OF_GIT_REPO = r'https://github.com/alanliowh/my_playlist.git'  # make sure .git folder is properly configured
+PATH_OF_GIT_REPO = r'C:\Users\wali\Downloads\my_playlist'  # make sure .git folder is properly configured
 COMMIT_MESSAGE = 'comment from python script'
 
 def git_push():
     try:
         repo = Repo(PATH_OF_GIT_REPO)
-        repo.git.add(update=True)
+        repo.git.add('--all')
         repo.index.commit(COMMIT_MESSAGE)
         origin = repo.remote(name='origin')
         origin.push()
@@ -100,8 +98,32 @@ def git_push():
 
 # Main Function
 if __name__ == "__main__":
+    #!/usr/bin/python
+    # -*- coding: utf-8 -*-
+    
+    lines = []
+    ch_name = []
+    
+    # first
+    ch_name.append(',TVB翡翠台')
     website = "https://m.iptv222.com/?act=play&token=420dde623e40d4de45c6133c725e470e&tid=ys&id=1"
+    #website='https://m.iptv222.com/?act=play&token=c90868eac559efd33ba6be6a7309cf0a&tid=gt&id=1'
     url = get_m3u8(website)
+    lines.append(url)
+    
+    
+    
+    # write m3u8
+    with open('test.m3u8', 'w',encoding="utf-8") as f:
+        f.write('#EXTM3U')
+        f.write('\n')
+        for i in range(0,len(lines)):
+            f.write('#EXTINF:1 '+ch_name[i])
+            f.write('\n')
+            f.write(lines[i])
+            f.write('\n')
+    
+    git_push()
     
     
 

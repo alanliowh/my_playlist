@@ -79,7 +79,7 @@ def get_m3u8(url_link):
 
 			# Checks if the extension is .png or .jpg
 			if url[len(url)-4:] == "m3u8":
-				print(url, end='\n\n')
+				#print(url, end='\n\n')
 				url_got_it = url
 		except Exception as e:
 			pass

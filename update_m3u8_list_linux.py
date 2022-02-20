@@ -22,13 +22,12 @@ def get_m3u8(url_link):
 	chrome_options.add_argument('headless')
 
 	# Ignores any certificate errors if there is any
-	chrome_options.add_argument("--ignore-certificate-errors")
+	#chrome_options.add_argument("--ignore-certificate-errors")
 
 	# Startup the chrome webdriver with executable path and
 	# pass the chrome options and desired capabilities as
 	# parameters.
-	driver = webdriver.Chrome(chrome_options=chrome_options,
-							desired_capabilities=desired_capabilities)
+	driver = webdriver.Chrome(chrome_options=chrome_options)
 
 	# Send a request to the website and let it load
 	driver.get(url_link)

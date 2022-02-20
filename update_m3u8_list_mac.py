@@ -84,13 +84,13 @@ def get_m3u8(url_link):
 	return url_got_it
 
     # git repo
-PATH_OF_GIT_REPO = r'C:\Users\wali\Downloads\my_playlist'  # make sure .git folder is properly configured
+PATH_OF_GIT_REPO = r'/Users/agatha/Desktop/my_playlist'  # make sure .git folder is properly configured
 COMMIT_MESSAGE = 'comment from python script'
 
 def git_push():
     try:
         repo = Repo(PATH_OF_GIT_REPO)
-        repo.git.add('auto_list.m3u8','update_m3u8_list.py')
+        repo.git.add('auto_list.m3u8','update_m3u8_list_mac.py')
         repo.index.commit(COMMIT_MESSAGE)
         origin = repo.remote(name='origin')
         origin.push()

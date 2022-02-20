@@ -104,6 +104,13 @@ if __name__ == "__main__":
     lines = []
     ch_name = []
     
+    # first
+    ch_name.append('tvg-logo="http://news.now.com/revamp2014/images/news_logo_400.png",NOW新闻台')
+    #website = "https://news.now.com/home/live"
+    #url = get_m3u8(website)
+    url='https://ewcdnsite02.nowe.com/session/09-7788cfa2083c511441a2e6c212c3d/Content/HLS/LIVE/Channel(HLS_CH332N)/index.m3u8'
+    lines.append(url)
+    
     
     # channel
     ch_name.append('tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/1/16/Phoenix_InfoNews.svg/1200px-Phoenix_InfoNews.svg.png",凤凰卫视资讯台')

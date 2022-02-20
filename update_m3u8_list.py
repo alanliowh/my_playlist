@@ -201,7 +201,9 @@ if __name__ == "__main__":
             f.write(lines[i])
             f.write('\n')
     
+    print('m3u8 file is built successfully ...')
     git_push()
+    print('git push done!')
     
     
 

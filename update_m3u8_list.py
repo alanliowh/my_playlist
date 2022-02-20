@@ -89,7 +89,7 @@ COMMIT_MESSAGE = 'comment from python script'
 def git_push():
     try:
         repo = Repo(PATH_OF_GIT_REPO)
-        repo.git.add('--all')
+        repo.git.add('auto_list.m3u8','update_m3u8_list.py')
         repo.index.commit(COMMIT_MESSAGE)
         origin = repo.remote(name='origin')
         origin.push()
@@ -150,7 +150,7 @@ if __name__ == "__main__":
     lines.append(url)
     
     # channel
-    ch_name.append('tvg-logo="https://upload.wikimedia.org/wikipedia/zh/0/0c/CCTV-6_Logo.png", CCTV6电影高清')
+    ch_name.append('tvg-logo="https://upload.wikimedia.org/wikipedia/zh/0/0c/CCTV-6_Logo.png",CCTV6电影高清')
     website = "https://m.iptv222.com/?act=play&token=420dde623e40d4de45c6133c725e470e&tid=ys&id=7"
     url = get_m3u8(website)
     lines.append(url)

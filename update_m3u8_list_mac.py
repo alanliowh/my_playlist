@@ -107,17 +107,36 @@ if __name__ == "__main__":
   
 
     # first
-    ch_name.append('tvg-logo="http://news.now.com/revamp2014/images/news_logo_400.png",NOW新闻台')
+    ch_name.append(',TVB翡翠台')
     website = "https://m.iptv222.com/?act=play&token=a40286099238bad221b653fc8b2e9b06&tid=gt&id=1"
+    url = get_m3u8(website)
+    lines.append(url)
+
+    ch_name.append(',TVB新聞台')
+    website = "https://m.iptv222.com/?act=play&token=6b7212f5e6acbaba49c8e06fe61ed957&tid=gt&id=9"
+    url = get_m3u8(website)
+    lines.append(url)
+
+    ch_name.append(',TVB无线财经资讯台')
+    website = "https://m.iptv222.com/?act=play&token=b62dbc8267237a664a1691d72b380f47&tid=gt&id=10"
+    url = get_m3u8(website)
+    lines.append(url)
+
+    ch_name.append(',TVB J2台')
+    website = "https://m.iptv222.com/?act=play&token=03c202230cbf78f91bee0f8f2d93d7d9&tid=gt&id=12"
+    url = get_m3u8(website)
+    lines.append(url)
+
+    ch_name.append(',香港有线新闻台')
+    website = "https://m.iptv222.com/?act=play&token=f580372fcd4388d470a93c98d8cf7904&tid=gt&id=24"
     url = get_m3u8(website)
     lines.append(url)
 
 
     # first
     ch_name.append('tvg-logo="http://news.now.com/revamp2014/images/news_logo_400.png",NOW新闻台')
-    website = "https://news.now.com/home/live"
+    website = "https://m.iptv222.com/?act=play&token=47fd161d4829fa19e175133e550cd535&tid=gt&id=16"
     url = get_m3u8(website)
-    #url='https://ewcdnsite02.nowe.com/session/09-7788cfa2083c511441a2e6c212c3d/Content/HLS/LIVE/Channel(HLS_CH332N)/index.m3u8'
     lines.append(url)
     
     

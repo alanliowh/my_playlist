@@ -1,6 +1,16 @@
 #EXTM3U
+#EXTINF:1 ,TVB翡翠台
+https://pullhls3948069e.live.126.net/live/531f7ecdcc8d95191204c4816a618c82/playlist.m3u8
+#EXTINF:1 ,TVB新聞台
+https://pullhls3948069e.live.126.net/live/f127551ac121ffbb8fac181f9aaae312/playlist.m3u8
+#EXTINF:1 ,TVB无线财经资讯台
+https://pullhls3948069e.live.126.net/live/ad534f003666a812d29597438540c58c/playlist.m3u8
+#EXTINF:1 ,TVB J2台
+https://pullhls3948069e.live.126.net/live/2b3251e7e28ced3688a97677c7a23f97/playlist.m3u8
+#EXTINF:1 ,香港有线新闻台
+https://pullhls3948069e.live.126.net/live/802dcb16b4b91442c2ae4ddb10737567/playlist.m3u8
 #EXTINF:1 tvg-logo="http://news.now.com/revamp2014/images/news_logo_400.png",NOW新闻台
-https://ewcdnsite04.nowe.com/session/09-9b51e9df1dbc4602b00979691bbd6/Content/HLS/LIVE/Channel(HLS_CH332N)/Stream(05)/index.m3u8
+https://pullhls3948069e.live.126.net/live/49440d1661bc4032fa1fad6a70299cfe/playlist.m3u8
 #EXTINF:1 tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/1/16/Phoenix_InfoNews.svg/1200px-Phoenix_InfoNews.svg.png",凤凰卫视资讯台
 http://playtv-live.ifeng.com/live/06OLEEWQKN4.m3u8
 #EXTINF:1 tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/3/34/Phoenix_Chinese.svg/1200px-Phoenix_Chinese.svg.png",凤凰卫视中文

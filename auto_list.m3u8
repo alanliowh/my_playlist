@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTINF:1 tvg-logo="http://news.now.com/revamp2014/images/news_logo_400.png",NOW新闻台
-https://ewcdnsite02.nowe.com/session/09-7788cfa2083c511441a2e6c212c3d/Content/HLS/LIVE/Channel(HLS_CH332N)/index.m3u8
+https://ewcdnsite05.nowe.com/session/09-2cdaa58625e284d8a87706fa0bbf9/Content/HLS/LIVE/Channel(HLS_CH332N)/Stream(05)/index.m3u8
 #EXTINF:1 tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/1/16/Phoenix_InfoNews.svg/1200px-Phoenix_InfoNews.svg.png",凤凰卫视资讯台
 http://playtv-live.ifeng.com/live/06OLEEWQKN4.m3u8
 #EXTINF:1 tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/3/34/Phoenix_Chinese.svg/1200px-Phoenix_Chinese.svg.png",凤凰卫视中文
@@ -20,7 +20,7 @@ http://219.151.31.37/liveplay-kk.rtxapp.com/live/program/live/cctv6hd/2300000/mn
 #EXTINF:1 tvg-logo="https://upload.wikimedia.org/wikipedia/zh/4/49/CCTV-8_Logo.png",CCTV8电视剧高清
 http://219.151.31.37/liveplay-kk.rtxapp.com/live/program/live/cctv8hd/2300000/mnf.m3u8
 #EXTINF:1 tvg-logo="https://upload.wikimedia.org/wikipedia/zh/0/0b/CCTV-13_Logo.png",CCTV13新闻高清
-https://pullhls3948069e.live.126.net/live/07189a69325a8fc70401f9cc43621418/playlist.m3u8
+https://pullhls3948069e.live.126.net/live/9ad1c16e984f6ec64ee5fd4acfc40974/playlist.m3u8
 #EXTINF:1 ,CCTV14少儿高清
 http://219.151.31.37/liveplay-kk.rtxapp.com/live/program/live/cctvsehd/2300000/mnf.m3u8
 #EXTINF:1 ,芜湖生活

@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTINF:1 tvg-logo="http://news.now.com/revamp2014/images/news_logo_400.png",NOW新闻台
-https://ewcdnsite06.nowe.com/session/09-b0cbcfc06863e5f175cf6431608c6/Content/HLS/LIVE/Channel(HLS_CH332N)/Stream(05)/index.m3u8
+https://ewcdnsite04.nowe.com/session/09-9b51e9df1dbc4602b00979691bbd6/Content/HLS/LIVE/Channel(HLS_CH332N)/Stream(05)/index.m3u8
 #EXTINF:1 tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/1/16/Phoenix_InfoNews.svg/1200px-Phoenix_InfoNews.svg.png",凤凰卫视资讯台
 http://playtv-live.ifeng.com/live/06OLEEWQKN4.m3u8
 #EXTINF:1 tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/3/34/Phoenix_Chinese.svg/1200px-Phoenix_Chinese.svg.png",凤凰卫视中文

@@ -104,7 +104,15 @@ if __name__ == "__main__":
     
     lines = []
     ch_name = []
-    
+  
+
+    # first
+    ch_name.append('tvg-logo="http://news.now.com/revamp2014/images/news_logo_400.png",NOW新闻台')
+    website = "https://m.iptv222.com/?act=play&token=a40286099238bad221b653fc8b2e9b06&tid=gt&id=1"
+    url = get_m3u8(website)
+    lines.append(url)
+
+
     # first
     ch_name.append('tvg-logo="http://news.now.com/revamp2014/images/news_logo_400.png",NOW新闻台')
     website = "https://news.now.com/home/live"

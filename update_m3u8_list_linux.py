@@ -8,11 +8,10 @@ from git import Repo
 
 def get_m3u8(url_link):
     # Enable Performance Logging of Chrome.
-	desired_capabilities = DesiredCapabilities.CHROME
-	desired_capabilities["goog:loggingPrefs"] = {"performance": "ALL"}
+	#desired_capabilities = DesiredCapabilities.CHROME
+	#desired_capabilities["goog:loggingPrefs"] = {"performance": "ALL"}
 
 	# Create the webdriver object and pass the arguments
-	options = webdriver.ChromeOptions()
 	chrome_options = webdriver.ChromeOptions()
 	chrome_options.add_argument('--no-sandbox')
 	chrome_options.add_argument("--headless")
@@ -28,7 +27,7 @@ def get_m3u8(url_link):
 	# Startup the chrome webdriver with executable path and
 	# pass the chrome options and desired capabilities as
 	# parameters.
-	driver = webdriver.Chrome(chrome_options=chrome_options)
+	driver = webdriver.Chrome(options=chrome_options )
 
 	# Send a request to the website and let it load
 	driver.get(url_link)

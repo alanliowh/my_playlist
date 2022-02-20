@@ -27,8 +27,7 @@ def get_m3u8(url_link):
 	# Startup the chrome webdriver with executable path and
 	# pass the chrome options and desired capabilities as
 	# parameters.
-	driver = webdriver.Chrome(executable_path="chromedriver",
-							chrome_options=chrome_options,
+	driver = webdriver.Chrome(chrome_options=chrome_options,
 							desired_capabilities=desired_capabilities)
 
 	# Send a request to the website and let it load

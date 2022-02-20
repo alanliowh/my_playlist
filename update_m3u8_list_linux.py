@@ -14,12 +14,13 @@ def get_m3u8(url_link):
 	# Create the webdriver object and pass the arguments
 	options = webdriver.ChromeOptions()
 	chrome_options = webdriver.ChromeOptions()
+	chrome_options.add_argument('--no-sandbox')
 	chrome_options.add_argument("--headless")
 	chrome_options.add_argument("--disable-gpu")
     #browser = webdriver.Chrome(options=chrome_options)
 
 	# Chrome will start in Headless mode
-	chrome_options.add_argument('headless')
+	#chrome_options.add_argument('headless')
 
 	# Ignores any certificate errors if there is any
 	#chrome_options.add_argument("--ignore-certificate-errors")

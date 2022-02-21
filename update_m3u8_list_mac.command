@@ -5,6 +5,7 @@ from selenium import webdriver
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 import time
 import json
+import os
 
 from git import Repo
 
@@ -91,7 +92,7 @@ COMMIT_MESSAGE = 'comment from python script_mac'
 def git_push():
     try:
         repo = Repo(PATH_OF_GIT_REPO)
-        repo.git.add('auto_list.m3u8','update_m3u8_list_mac.command')
+        repo.git.add(all=True)
         repo.index.commit(COMMIT_MESSAGE)
         origin = repo.remote(name='origin')
         origin.push()
@@ -101,8 +102,9 @@ def git_push():
 # Main Function
 if __name__ == "__main__":
     #!/usr/bin/python
-    # -*- coding: utf-8 -*-
+    # -*- codin/Users/agatha/Desktop/my_playlist/test_git.pyg: utf-8 -*-
     
+    os.chdir('/Users/agatha/Desktop/my_playlist/')
     lines = []
     ch_name = []
   

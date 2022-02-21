@@ -33,7 +33,7 @@ def get_m3u8(url_link):
 	driver.get(url_link)
 
 	# Sleeps for 10 seconds
-	time.sleep(3)
+	time.sleep(1)
 
 	# Gets all the logs from performance in Chrome
 	logs = driver.get_log("performance")

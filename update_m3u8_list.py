@@ -105,10 +105,21 @@ if __name__ == "__main__":
     ch_name = []
     
     # first
+    ch_name.append('tvg-logo="https://seomarketing.hk/wp-content/uploads/2018/08/TVB-inews-300x124.jpg",無綫新聞台')
+    url='http://livetv.dnsfor.me:80/channel.10.m3u8'
+    lines.append(url)
+    
+    # first
+    ch_name.append('tvg-logo="http://img.tvb.com/corporate/_fck_/image/TVB_Finance%20&%20Information%20logo_2018(1).jpg",無綫財經·資訊台')
+    url='http://livetv.dnsfor.me:80/channel.11.m3u8'
+    lines.append(url)
+    
+    
+    # first
     ch_name.append('tvg-logo="http://news.now.com/revamp2014/images/news_logo_400.png",NOW新闻台')
-    website = "https://news.now.com/home/live"
-    url = get_m3u8(website)
-    #url='https://ewcdnsite02.nowe.com/session/09-7788cfa2083c511441a2e6c212c3d/Content/HLS/LIVE/Channel(HLS_CH332N)/index.m3u8'
+    #website = "https://news.now.com/home/live"
+    #url = get_m3u8(website)
+    url='http://livetv.dnsfor.me:80/channel.4.m3u8'
     lines.append(url)
     
     

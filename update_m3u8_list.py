@@ -199,7 +199,7 @@ if __name__ == "__main__":
         
     # channel
     ch_name.append(',芜湖新聞')
-    url = 'http://live1.wuhubtv.com/channel1/playlist.m3u'
+    url = 'http://live1.wuhubtv.com/channel1/playlist.m3u8'
     lines.append(url)
     
     # write m3u8

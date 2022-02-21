@@ -1,9 +1,21 @@
 #EXTM3U
-#EXTINF:1 tvg-logo="https://seomarketing.hk/wp-content/uploads/2018/08/TVB-inews-300x124.jpg",無綫新聞台
+#EXTINF:1 ,TVB翡翠台
+https://pullhls3948069e.live.126.net/live/1eed9949a8e1e1b58fc4ae7dd64f19db/playlist.m3u8
+#EXTINF:1 tvg-logo="https://seomarketing.hk/wp-content/uploads/2018/08/TVB-inews-300x124.jpg",TVB新聞台
+https://pullhls3948069e.live.126.net/live/40e93744600036c4f5186bceb5867459/playlist.m3u8
+#EXTINF:1 tvg-logo="https://seomarketing.hk/wp-content/uploads/2018/08/TVB-inews-300x124.jpg",無綫新聞台 2
 http://livetv.dnsfor.me:80/channel.10.m3u8
-#EXTINF:1 tvg-logo="http://img.tvb.com/corporate/_fck_/image/TVB_Finance%20&%20Information%20logo_2018(1).jpg",無綫財經·資訊台
+#EXTINF:1 tvg-logo="http://img.tvb.com/corporate/_fck_/image/TVB_Finance%20&%20Information%20logo_2018(1).jpg",TVB无线财经资讯台
+https://pullhls3948069e.live.126.net/live/e43da50a7038ea52a2550bc9c5ed7066/playlist.m3u8
+#EXTINF:1 tvg-logo="http://img.tvb.com/corporate/_fck_/image/TVB_Finance%20&%20Information%20logo_2018(1).jpg",無綫財經·資訊台 2
 http://livetv.dnsfor.me:80/channel.11.m3u8
+#EXTINF:1 ,TVB J2台
+https://pullhls3948069e.live.126.net/live/53d74d4c786bdb5acd17c58f0dd8a8aa/playlist.m3u8
+#EXTINF:1 ,香港有线新闻台
+https://pullhls3948069e.live.126.net/live/24ee03e41293842b056448c1f8515fc6/playlist.m3u8
 #EXTINF:1 tvg-logo="http://news.now.com/revamp2014/images/news_logo_400.png",NOW新闻台
+https://pullhls3948069e.live.126.net/live/562db7e2e8678d7b1cc13fc1511f6c1a/playlist.m3u8
+#EXTINF:1 tvg-logo="http://news.now.com/revamp2014/images/news_logo_400.png",NOW新闻台 2
 http://livetv.dnsfor.me:80/channel.4.m3u8
 #EXTINF:1 tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/1/16/Phoenix_InfoNews.svg/1200px-Phoenix_InfoNews.svg.png",凤凰卫视资讯台
 http://playtv-live.ifeng.com/live/06OLEEWQKN4.m3u8
@@ -20,14 +32,14 @@ https://pullhls3948069e.live.126.net/live/e2f6ae071df1035d73c7aa82176f5d0c/playl
 #EXTINF:1 ,CCTV5+体育赛事高清
 https://pullhls3948069e.live.126.net/live/3182991112d1fe025500fb854a3a9e7c/playlist.m3u8
 #EXTINF:1 tvg-logo="https://upload.wikimedia.org/wikipedia/zh/0/0c/CCTV-6_Logo.png",CCTV6电影高清
-http://219.151.31.37/liveplay-kk.rtxapp.com/live/program/live/cctv6hd/2300000/mnf.m3u8
+https://219.151.31.37/liveplay-kk.rtxapp.com/live/program/live/cctv6hd/2300000/mnf.m3u8
 #EXTINF:1 tvg-logo="https://upload.wikimedia.org/wikipedia/zh/4/49/CCTV-8_Logo.png",CCTV8电视剧高清
-http://219.151.31.37/liveplay-kk.rtxapp.com/live/program/live/cctv8hd/2300000/mnf.m3u8
+https://219.151.31.37/liveplay-kk.rtxapp.com/live/program/live/cctv8hd/2300000/mnf.m3u8
 #EXTINF:1 tvg-logo="https://upload.wikimedia.org/wikipedia/zh/0/0b/CCTV-13_Logo.png",CCTV13新闻高清
 https://pullhls3948069e.live.126.net/live/2aa5b8b5df19562af10e2b218a10942a/playlist.m3u8
 #EXTINF:1 ,CCTV14少儿高清
-http://219.151.31.37/liveplay-kk.rtxapp.com/live/program/live/cctvsehd/2300000/mnf.m3u8
+https://219.151.31.37/liveplay-kk.rtxapp.com/live/program/live/cctvsehd/2300000/mnf.m3u8
 #EXTINF:1 ,芜湖生活
 http://live1.wuhubtv.com/channel2/playlist.m3u8
 #EXTINF:1 ,芜湖新聞
-http://live1.wuhubtv.com/channel1/playlist.m3u8
+http://live1.wuhubtv.com/channel1/playlist.m3u

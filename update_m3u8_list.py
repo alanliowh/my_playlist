@@ -109,6 +109,98 @@ if __name__ == "__main__":
     url='http://livetv.dnsfor.me:80/channel.10.m3u8'
     lines.append(url)
     
+    # first
+    ch_name.append('tvg-logo="http://img.tvb.com/corporate/_fck_/image/TVB_Finance%20&%20Information%20logo_2018(1).jpg",無綫財經·資訊台')
+    url='http://livetv.dnsfor.me:80/channel.11.m3u8'
+    lines.append(url)
+    
+    
+    # first
+    ch_name.append('tvg-logo="http://news.now.com/revamp2014/images/news_logo_400.png",NOW新闻台')
+    #website = "https://news.now.com/home/live"
+    #url = get_m3u8(website)
+    url='http://livetv.dnsfor.me:80/channel.4.m3u8'
+    lines.append(url)
+    
+    
+    # channel
+    ch_name.append('tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/1/16/Phoenix_InfoNews.svg/1200px-Phoenix_InfoNews.svg.png",凤凰卫视资讯台')
+    url = 'http://playtv-live.ifeng.com/live/06OLEEWQKN4.m3u8'
+    lines.append(url)
+    
+    # channel
+    ch_name.append('tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/3/34/Phoenix_Chinese.svg/1200px-Phoenix_Chinese.svg.png",凤凰卫视中文')
+    url = 'https://playtv-live.ifeng.com/live/06OLEGEGM4G.m3u8'
+    lines.append(url)
+    
+    
+    # channel
+    ch_name.append('tvg-logo="https://cdn.tdm.com.mo/uploads/attachment/2021-03/a8fbac1841a5372178278304967c69fb.png_w250",澳視澳門')
+    url = 'https://live4.tdm.com.mo/ch1/ch1.live/playlist.m3u8'
+    lines.append(url)
+        
+    # channel
+    ch_name.append('tvg-logo="https://cdn.tdm.com.mo/uploads/attachment/2021-03/5bde9db9db093ab310ceef6976cd0ee2.png_w250",澳视资讯')
+    url = 'https://live4.tdm.com.mo/ch5/info_ch5.live/playlist.m3u8'
+    lines.append(url)
+    
+
+    
+    
+    # first
+    ch_name.append('tvg-logo="https://upload.wikimedia.org/wikipedia/zh/6/65/CCTV-1_Logo.png",CCTV1综合高清')
+    website = "https://m.iptv222.com/?act=play&token=420dde623e40d4de45c6133c725e470e&tid=ys&id=1"
+    url = get_m3u8(website)
+    lines.append(url)
+    
+    # channel
+    ch_name.append(' tvg-logo="https://upload.wikimedia.org/wikipedia/zh/3/33/CCTV-5_Logo.png",CCTV5体育高清')
+    website = "https://m.iptv222.com/?act=play&token=420dde623e40d4de45c6133c725e470e&tid=ys&id=5"
+    url = get_m3u8(website)
+    lines.append(url)
+   
+    
+    
+    # channel
+    ch_name.append(',CCTV5+体育赛事高清')
+    website = "https://m.iptv222.com/?act=play&token=420dde623e40d4de45c6133c725e470e&tid=ys&id=6"
+    url = get_m3u8(website)
+    lines.append(url)
+    
+    # channel
+    ch_name.append('tvg-logo="https://upload.wikimedia.org/wikipedia/zh/0/0c/CCTV-6_Logo.png",CCTV6电影高清')
+    website = "https://m.iptv222.com/?act=play&token=420dde623e40d4de45c6133c725e470e&tid=ys&id=7"
+    url = get_m3u8(website)
+    lines.append(url)
+    
+    # channel
+    ch_name.append('tvg-logo="https://upload.wikimedia.org/wikipedia/zh/4/49/CCTV-8_Logo.png",CCTV8电视剧高清')
+    website = "https://m.iptv222.com/?act=play&token=420dde623e40d4de45c6133c725e470e&tid=ys&id=9"
+    url = get_m3u8(website)
+    lines.append(url)
+    
+    
+    # channel
+    ch_name.append('tvg-logo="https://upload.wikimedia.org/wikipedia/zh/0/0b/CCTV-13_Logo.png",CCTV13新闻高清')
+    website = "https://m.iptv222.com/?act=play&token=420dde623e40d4de45c6133c725e470e&tid=ys&id=14"
+    url = get_m3u8(website)
+    lines.append(url)
+    
+    # channel
+    ch_name.append(',CCTV14少儿高清')
+    website = "https://m.iptv222.com/?act=play&token=420dde623e40d4de45c6133c725e470e&tid=ys&id=15"
+    url = get_m3u8(website)
+    lines.append(url)
+    
+    # channel
+    ch_name.append(',芜湖生活')
+    url = 'http://live1.wuhubtv.com/channel2/playlist.m3u8'
+    lines.append(url)
+        
+    # channel
+    ch_name.append(',芜湖新聞')
+    url = 'http://live1.wuhubtv.com/channel1/playlist.m3u'
+    lines.append(url)
     
     # write m3u8
     with open('auto_list.m3u8', 'w',encoding="utf-8") as f:
